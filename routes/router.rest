@@ -1,0 +1,52 @@
+# POST http://localhost:5000/addses/1 # Content-Type: application/json
+
+# { # "services":{ # "services_id":517, # "services_name":"addharedit", # "services_time":10
+
+# } # }
+
+# POST http://localhost:5000/windo # Content-Type: application/json
+
+# {
+
+# "windo_no":1 # }
+
+# POST http://localhost:5000/addses/2/7 # Content-Type: application/json
+
+# {
+
+# "services_time":33 # }
+
+# POST http://localhost:5000/wtime/2 # Content-Type: application/json
+
+# { # "start_time":{ # "hours":10, # "minutes":10 # }, # "end_time":{ # "hours":18, # "minutes":10 # }, "current_time":{ # "hours":10, # "minutes":10 # } # }
+
+# GET http://localhost:5000/windowlist
+
+# GET http://localhost:5000/servicelist/2
+
+# POST http://localhost:5000/login # Content-Type: application/json
+
+# { # "password": "janseva" , # "username": "kendra" , # "phone": 9104883288 # }
+
+# GET http://localhost:5000/signup # Content-Type: application/json
+
+# { # "password": "janseva" , # "username": "kendra" , # "phone": 9104883288 # }
+
+# POST http://localhost:5000/holiday # Content-Type: application/json
+
+# { # "holi_reason": "janseva" , # "holi_date": "2013-04-30" # } # POST http://localhost:5000/date
+
+# POST http://localhost:5000/addpool # Content-Type: application/json
+
+# { # "s_name": " Nationality Certificate for Educational Purpose", # "s_no": 32, # "s_bring": "Copy of Birth Certificate or Copy of Domicile Certificate or Copy of Indian Passport,Copy of school leaving certificate and copy of school leaving certificate of parent/guardian,Copy of mark sheet and certificate of standard-10/standard-1r,Copy of telephone bill or light bill or copy of voter ID card or copy of ration card or tax demand bill,Copy of Income Tax Permanent Account Number (PANCARD),Request letter asking to submit nationality certificate/copy of admission form/receipt of concerned institute college"
+
+# }
+
+GET http://localhost:5000/gtoken/517/3 Content-Type: application/json
+{
+"m_number":9104883288
+}
+
+# GET http://localhost:5000/poolclient # Content-Type: application/json
+
+# GET http://localhost:5000/wtime/2

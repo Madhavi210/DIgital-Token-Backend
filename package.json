@@ -1,0 +1,25 @@
+{
+  "name": "digital-token-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhavi210/DIgital-Token-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madhavi210/DIgital-Token-Backend/issues"
+  },
+  "homepage": "https://github.com/Madhavi210/DIgital-Token-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoos": "^0.0.1-security"
+  }
+}
